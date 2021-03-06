@@ -64,14 +64,14 @@
 5. [IUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IUserDal.cs)
 6. [IRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IRentalDal.cs)
 
-#### - EntityFramework
-1. [EfBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+#### - EntityFramework-Repository
+1. [EfBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfBrandDal.cs)
 2. [EfCarDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfCarDal.cs)
-3. [EfColorDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+3. [EfColorDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfColorDal.cs)
 4. [EfCustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
-5. [EfUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
-6. [EfRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
-7. [RentACarContext.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Context/RentACarContext.cs)
+5. [EfUserDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfUserDal.cs)
+6. [EfRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfRentalDal.cs)
+7. [RentACarContext.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/RentACarContext.cs)
 
 #### - InMemory
 1. [InMemoryBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryBrandDal.cs)
