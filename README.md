@@ -31,3 +31,31 @@
 1. [CarValidator.cs](https://github.com/iremerol/RentACarProject/blob/master/Business/ValidationRules/FluentValidation/CarValidator.cs)
 2. [RentalValidator.cs](https://github.com/iremerol/RentACarProject/blob/master/Business/ValidationRules/FluentValidation/RentalValidator.cs)
 3. [UserValidator.cs](https://github.com/iremerol/RentACarProject/blob/master/Business/ValidationRules/FluentValidation/UserValidator.cs)
+
+### 4) Core Layer
+#### - DataAccess
+1. [IEntityRepository.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/IEntityRepository.cs)
+2. [EfEntityRepositoryBase.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
+
+#### - Entities
+1. [IDto.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Entities/IDto.cs)
+2. [IEntity.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Entities/IEntity.cs)
+
+#### - Utilities
+##### - Interceptors
+1. [AspectInterceptorSelector.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Utilities/Interceptors/AspectInterceptorSelector.cs)
+2. [MethodInterception.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Utilities/Interceptors/MethodInterception.cs)
+3. [MethodInterceptionBaseAttribute.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Utilities/Interceptors/MethodInterceptionBaseAttribute.cs)
+
+#### - CrossCuttingConcerns
+1. [ValidationTool.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/CrossCuttingConcerns/Validation/ValidationTool.cs)
+
+
+#### - Aspects
+1. [ValidationAspect.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
+
+
+
+
+
+
