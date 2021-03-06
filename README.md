@@ -97,6 +97,22 @@
 2. [RentalDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/main/Entities/DTOs/RentalDetailDto.cs)
 
 
+### 5) WebAPI Layer
+#### - Controllers Classes
+1. [BrandsController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/BrandsController.cs)
+2. [CarsController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/CarsController.cs)
+3. [ColorsController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/ColorsController.cs)
+4. [CustomersController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/CustomersController.cs)
+5. [RentalsController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/RentalsController.cs)
+6. [UsersController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/UsersController.cs)
+7. [WeatherForecastController.cs](https://github.com/iremerol/RentACarProject/blob/main/WebAPI/Controllers/WeatherForecastController.cs)
+
+### 6) ConsoleUI
+1. [Program.cs](https://github.com/iremerol/RentACarProject/blob/master/ConsoleUI/Program.cs)
+
+
+
+
 
 
 
