@@ -71,7 +71,7 @@
 4. [EfCustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
 5. [EfUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
 6. [EfRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
-7. [RentACarContext.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/RentACarDbContext.cs)
+7. [RentACarContext.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/RentACarContext.cs)
 
 #### - InMemory
 1. [InMemoryBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryBrandDal.cs)
