@@ -34,8 +34,8 @@
 
 ### 2) Core Layer
 #### - DataAccess
-1. [IEntityRepository.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/IEntityRepository.cs)
-2. [EfEntityRepositoryBase.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
+1. [IEntityRepository.cs](https://github.com/iremerol/RentACarProject/blob/main/Core/DataAccess/IEntityRepository.cs)
+2. [EfEntityRepositoryBase.cs](https://github.com/iremerol/RentACarProject/blob/main/Core/DataAccess/EntityFramework/IEntityRepositoryBase.cs)
 
 #### - Entities
 1. [IDto.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Entities/IDto.cs)
