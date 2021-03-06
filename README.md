@@ -32,7 +32,7 @@
 2. [RentalValidator.cs](https://github.com/iremerol/RentACarProject/blob/master/Business/ValidationRules/FluentValidation/RentalValidator.cs)
 3. [UserValidator.cs](https://github.com/iremerol/RentACarProject/blob/master/Business/ValidationRules/FluentValidation/UserValidator.cs)
 
-### 4) Core Layer
+### 2) Core Layer
 #### - DataAccess
 1. [IEntityRepository.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/IEntityRepository.cs)
 2. [EfEntityRepositoryBase.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs)
@@ -53,6 +53,48 @@
 
 #### - Aspects
 1. [ValidationAspect.cs](https://github.com/iremerol/RentACarProject/blob/master/Core/Aspects/Autofac/Validation/ValidationAspect.cs)
+
+
+### 3) DataAccess Layer
+#### - Abstract Classes
+1. [IBrandDal.cs](https://github.com/iremerol/RentACarProjectt/blob/master/DataAccess/Abstract/IBrandDal.cs)
+2. [ICarDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/ICarDal.cs)
+3. [IColorDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IColorDal.cs)
+4. [ICustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)
+5. [IUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IUserDal.cs)
+6. [IRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IRentalDal.cs)
+
+#### - EntityFramework
+1. [EfBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfBrandDal.cs)
+2. [EfCarDal.cs](https://github.com/iremerol/RentACarProject/blob/main/DataAccess/Concrete/EntityFramework/Repository/EfCarDal.cs)
+3. [EfColorDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfColorDal.cs)
+4. [EfCustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfCustomerDal.cs)
+5. [EfUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfUserDal.cs)
+6. [EfRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/EfRentalDal.cs)
+7. [RentACarContext.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/EntityFramework/RentACarDbContext.cs)
+
+#### - InMemory
+1. [InMemoryBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryBrandDal.cs)
+2. [InMemoryCarDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryCarDal.cs)
+3. [InMemoryColorDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryColorDal.cs)
+4. [InMemoryCustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryCustomerDal.cs)
+5. [InMemoryUserDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryUserDal.cs)
+6. [InMemoryRentalDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Concrete/InMemory/InMemoryRentalDal.cs)
+
+
+
+### 4) Entities Layer
+#### - Concrete Classes
+1. [Brand.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/Brand.cs)
+2. [Car.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/Car.cs)
+3. [Color.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/Color.cs)
+4. [Customer.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/Customer.cs)
+5. [Rental.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/Rental.cs)
+6. [User.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Concrete/User.cs)
+
+#### - DTOs Classes
+1. [CarDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/main/Entities/DTOs/CarDetailDto.cs)
+2. [RentalDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Abstract/RentalDetailDto.cs)
 
 
 
