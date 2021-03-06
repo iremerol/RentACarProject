@@ -57,7 +57,7 @@
 
 ### 3) DataAccess Layer
 #### - Abstract Classes
-1. [IBrandDal.cs](https://github.com/iremerol/RentACarProjectt/blob/master/DataAccess/Abstract/IBrandDal.cs)
+1. [IBrandDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IBrandDal.cs)
 2. [ICarDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/ICarDal.cs)
 3. [IColorDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/IColorDal.cs)
 4. [ICustomerDal.cs](https://github.com/iremerol/RentACarProject/blob/master/DataAccess/Abstract/ICustomerDal.cs)
