@@ -94,7 +94,7 @@
 
 #### - DTOs Classes
 1. [CarDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/main/Entities/DTOs/CarDetailDto.cs)
-2. [RentalDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/master/Entities/Abstract/RentalDetailDto.cs)
+2. [RentalDetailDto.cs](https://github.com/iremerol/RentACarProject/blob/main/Entities/DTOs/RentalDetailDto.cs)
 
 
 
